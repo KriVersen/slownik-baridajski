@@ -1,4 +1,5 @@
 LATEX = pdflatex
+LINT = chktex
 
 all: slownik.pdf
 
@@ -8,4 +9,7 @@ slownik.pdf: slownik.tex
 clean:
 	rm *.pdf *.out *.log *.aux
 
-.PHONY: all clean
+check:
+	$(LINT) slownik.tex
+
+.PHONY: all clean check
