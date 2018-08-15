@@ -1,0 +1,62 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=3.7cm,columnsep=30pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{tikz}
+\usepackage{tikz-dependency}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{gb4e}
+\usepackage{verse}
+\usepackage{tipa}
+\usepackage{hyperref}
+\usepackage{morefloats}
+\usepackage{microtype}
+\usepackage{multicol}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{4mm}
+\usepackage{fancyhdr}
+\fancyhead[L]{\textsf{\rightmark}}
+\fancyhead[R]{\textsf{\leftmark}}
+\renewcommand{\headrulewidth}{1.4pt}
+\fancyfoot[C]{\textbf{\textsf{\thepage}}}
+\renewcommand{\footrulewidth}{1.4pt}
+\pagestyle{fancy}
+
+% macro definitions
+\newcommand{\entry}[1]{«#1»}
+\newcommand{\nentry}[2]{#1. \entry{#2}}
+\newcommand{\noun}[4]{\markboth{#1}{#1}\textbf{#1} /\textipa{#2}/ \textsc{rzecz. #3} #4 \\ }
+\newcommand{\expr}[3]{\markboth{#1}{#1}\textbf{#1} /\textipa{#2}/ \textsc{wyraż.} #3 \\ }
+\renewcommand{\verb}[4]{\markboth{#1}{#1}\textbf{#1} /\textipa{#2}/ \textsc{czas. #3.} #4 \\ }
+\newcommand{\conj}[3]{\markboth{#1}{#1}\textbf{#1} /\textipa{#2}/ \textsc{spój.} #3 \\ }
+
+\title{Słownik baridajsko-polski}
+\author{Kristian Arped \\ Adrien Eryk Esjar Józef Alatriste}
+
+\begin{document}
+\maketitle
+\newpage
+
+\begin{multicols}{2}
+    \section{A}
+    \noun{acsi}{aksi}{VII}{\entry{oko}}
+    \expr{adiẽ}{adiẽ}{\entry{do widzenia}}
+    \noun{agnil}{agnil}{VII}{\entry{koło}}
+    \noun{alta}{alta}{II}{\entry{wszystko}}
+    \noun{anlis}{anlis}{VII}{\entry{zwykłość, pospolitość}}
+    \noun{aryo}{arjo}{I}{\entry{król}}
+    \noun{aryo·ssa}{arjos:a}{II}{\entry{królestwo}}
+    \verb{atnálf}{atna:lf}{reg}{\entry{przybliżać, tłumaczyć}}
+    \conj{aux}{auʃ}{\entry{również, też, także}}
+    \noun{ayre}{ajre}{III}{\entry{kłos}}
+    
+
+\end{multicols}
+
+\end{document}
