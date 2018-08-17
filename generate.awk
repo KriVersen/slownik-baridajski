@@ -4,6 +4,9 @@ BEGIN {
     # set column separator
     FS = ";"
 
+    # irregular verbs
+    split("esha grasia loinestra mexa sanyana varha", irregs)
+
     # set first section and print it
     section = "^A"
     print "\\section{" substr(section, 2, 2) "}"
@@ -18,6 +21,7 @@ $2 !~ tolower(section) {
     print "\n\\section{" substr(section, 2, 2) "}"
 }
 
+# nouns
 $1 == "noun" {
     # get appriopriate declension number
     if ($2 ~ /o$/)
@@ -36,5 +40,27 @@ $1 == "noun" {
         declen = "VII"
 
     # print whole noun entry
-    print "\\noun{" $2 "}{" $3 "}{" declen "}{\\entry{" $3 "}}"
+    print "\\noun{" $2 "}{" $3 "}{" declen "}{\\entry{" $4 "}}"
+}
+
+# verbs
+$1 == "verb" {
+    reg = "reg"
+
+    # check if verb is irregular
+    for (word in irregs)
+        if ($2 == word)
+            reg = "niereg"
+
+    print "\\verb{" $2 "}{" $3 "}{" reg "}{\\entry{" $4 "}}"
+}
+
+# expressions
+$1 == "expr" {
+    print "\\expr{" $2 "}{" $3 "}{\\entry{" $4 "}}"
+}
+
+# prepositions
+$1 == "prep" {
+    print "\\prep{" $2 "}{" $3 "}{\\entry{" $4 "}}"
 }
