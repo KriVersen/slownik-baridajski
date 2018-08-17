@@ -14,7 +14,7 @@ BEGIN {
     FS = ";"
 
     # irregular verbs
-    split("esha grasia loinestra mexa sanyana varha", irregs)
+    n = split("esha grasia loinestra mexa sanyana varha", irregs, " ")
 
     # set first section and print it
     section = "^A"
@@ -57,8 +57,8 @@ $1 == "verb" {
     reg = "reg"
 
     # check if verb is irregular
-    for (word in irregs)
-        if ($2 == word)
+    for (i = 1; i <= n; i++)
+        if ($2 == irregs[i])
             reg = "niereg"
 
     print "\\ver{" $2 "}{" $3 "}{" reg "}{\\entry{" $4 "}}"
@@ -72,4 +72,9 @@ $1 == "expr" {
 # prepositions
 $1 == "prep" {
     print "\\prep{" $2 "}{" $3 "}{\\entry{" $4 "}}"
+}
+
+# conjuction
+$1 == "conj" {
+    print "\\con{" $2 "}{" $3 "}{\\entry{" $4 "}}"
 }
