@@ -1,5 +1,14 @@
 #!/bin/awk -f
 
+# strip section letters out of diacritics
+function strip_diacrit(str) {
+    gsub("á", "a", str)
+    gsub("ã", "a", str)
+    gsub("é", "e", str)
+    gsub("ẽ", "e", str)
+    return str
+}
+
 BEGIN {
     # set column separator
     FS = ";"
@@ -13,7 +22,7 @@ BEGIN {
 }
 
 # check for new section
-$2 !~ tolower(section) { 
+strip_diacrit($2) !~ tolower(section) { 
     # get new section letter
     section = "^"toupper(substr($2, 1, 1))
 
@@ -52,7 +61,7 @@ $1 == "verb" {
         if ($2 == word)
             reg = "niereg"
 
-    print "\\verb{" $2 "}{" $3 "}{" reg "}{\\entry{" $4 "}}"
+    print "\\ver{" $2 "}{" $3 "}{" reg "}{\\entry{" $4 "}}"
 }
 
 # expressions

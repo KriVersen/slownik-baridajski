@@ -10,7 +10,7 @@ vocab.tex: generate.awk vocab_sorted.csv
 	./generate.awk < vocab_sorted.csv > $@
 
 vocab_sorted.csv: vocab.csv
-	LC_ALL=C sort -t ";" -k 2,2 $< > $@
+	sort -t ";" -k 2,2 $< > $@
 
 %.awk:
 	chmod +x $@
