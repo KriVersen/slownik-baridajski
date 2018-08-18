@@ -1,5 +1,5 @@
 noun;acsi;aksi;oko
-expr;adiẽ;adiẽ;do widzenia
+expr;adiẽ;adi\~e;do widzenia
 noun;agnil;agnil;koło
 noun;alta;alta;wszystko
 noun;anlis;anlis;zwykłość, pospolitość
@@ -10,11 +10,11 @@ conj;aux;auS;również, też, także
 noun;ayre;ajre;kłos
 adve;ád;a:d;za
 noun;árno;a:rno;orzeł
-prep;ã;ã;na
+prep;ã;\~a;na
 noun;Baridas;baridas;Baridas
 noun;caxti;kaSti;ród
 noun;cárte;ka:rte;pocztówka
-noun;cãserol;kãserol;kanclerz
+noun;cãserol;k\~aserol;kanclerz
 noun;cer;ker;iść
 prep;com;kom;jako
 noun;dage;daZ;dzień
@@ -33,9 +33,9 @@ noun;eslim;eslim;srebro
 prep;et;et;z
 noun;eyos;ejos;sojusz, unia
 noun;épar;e:par;ramię
-noun;ẽsk;ẽsk;życzenie
-noun;ẽthar;ẽTar;główny
-expr;ẽthar hralde;ẽTar hralde;stolica
+noun;ẽsk;\~esk;życzenie
+noun;ẽthar;\~eTar;główny
+expr;ẽthar hralde;\~eTar hralde;stolica
 noun;feith;fejT;podróż
 noun;fine;fine;kres
 noun;fisir;fisir;wiosna
@@ -53,32 +53,32 @@ noun;imperio;imperio;cesarstwo
 noun;is;is;światło
 noun;islad;islad;księżyc
 noun;isum;isum;blask
-noun;isẽ;isẽ;jasność
+noun;isẽ;is\~e;jasność
 noun;lian;lian;dobro
 noun;linial;linial;wiersz
 noun;lionresta;lionresta;wysyłać
 noun;lunt;lunt;łódź
-noun;marques;markwes;mariz
+noun;marques;mark\super wes;mariz
 noun;megand;megand;wielkość
-noun;mõte;mõte;góra
+noun;mõte;m\~ote;góra
 noun;narth;narT;kraj
 noun;noctet;noktet;noc
 noun;norei;norei;północ (kierunek)
 verb;oinos;ojnos;ogłaszać
 conj;otu;otu;o
 noun;partiax;partiaS;partia
-noun;perlẽ;perlẽ;perła
+noun;perlẽ;perl\~e;perła
 noun;poxt;poSt;poczta
 noun;poxtarcárte;poStarca:rte;pocztówka
 noun;prix;priS;wieś
 noun;proclemati;proklemati;proklamacja
-noun;quena;kwena;liść
-noun;quit;kwit;rzecz
-noun;quitanlisar;kwitanlisar;rzeczpospolita
-noun;qushyalf;kwushjal;wzniosłość
+noun;quena;k\super wena;liść
+noun;quit;k\super wit;rzecz
+noun;quitanlisar;k\super witanlisar;rzeczpospolita
+noun;qushyalf;k\super wushjal;wzniosłość
 noun;rafad;rafad;kruk
 noun;realua;realua;rzeczywistość
-noun;regẽte;regẽte;regent
+noun;regẽte;reg\~ete;regent
 verb;rolu;rolu;owijać
 noun;saire;saire;pozdrowienie
 verb;sairus;sairus;pozdrawiać
@@ -86,7 +86,7 @@ verb;sal;sal;skakać
 verb;sanyana;sanjana;pisać
 noun;Sarmatia;sarmatia;Sarmacja
 conj;sáh;sa:h;i
-noun;sámõteu;podgórze
+noun;sámõteu;sa:m\~oteu;podgórze
 adve;sáno;sa:no;ponad
 adve;sát;sa:t;pod
 noun;siar;siar;szal
