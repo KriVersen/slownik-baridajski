@@ -1,5 +1,5 @@
 noun;acsi;aksi;oko
-expr;adiẽ;adiẽ.;do widzenia
+expr;adiẽ;adiẽ;do widzenia
 noun;agnil;agnil;koło
 noun;alta;alta;wszystko
 noun;anlis;anlis;zwykłość, pospolitość
@@ -8,7 +8,7 @@ noun;aryossa;arjos:a;królestwo
 verb;atnálf;atna:lf;przybliżać, tłumaczyć
 conj;aux;auS;również, też, także
 noun;ayre;ajre;kłos
-prep;ád;a:d;za
+adve;ád;a:d;za
 noun;árno;a:rno;orzeł
 prep;ã;ã;na
 noun;Baridas;baridas;Baridas
@@ -36,3 +36,66 @@ noun;épar;e:par;ramię
 noun;ẽsk;ẽsk;życzenie
 noun;ẽthar;ẽTar;główny
 expr;ẽthar hralde;ẽTar hralde;stolica
+noun;feith;fejT;podróż
+noun;fine;fine;kres
+noun;fisir;fisir;wiosna
+noun;froth;froT;serdeczność
+verb;grasia;grasia;dziękować
+noun;hara;hara;cześć
+noun;heridate;heridate;dziedzictwo
+noun;histori;histori;dzieje, historia
+noun;hralde;hralde;miasto
+noun;hyalf;hjalf;wysokość
+noun;hyelfa;hjelfa;serce
+noun;imis;imis;środek
+noun;imisnoctet;imisnoktet;północ, środek nocy
+noun;imperio;imperio;cesarstwo
+noun;is;is;światło
+noun;islad;islad;księżyc
+noun;isum;isum;blask
+noun;isẽ;isẽ;jasność
+noun;lian;lian;dobro
+noun;linial;linial;wiersz
+noun;lionresta;lionresta;wysyłać
+noun;lunt;lunt;łódź
+noun;marques;markwes;mariz
+noun;megand;megand;wielkość
+noun;mõte;mõte;góra
+noun;narth;narT;kraj
+noun;noctet;noktet;noc
+noun;norei;norei;północ (kierunek)
+verb;oinos;ojnos;ogłaszać
+conj;otu;otu;o
+noun;partiax;partiaS;partia
+noun;perlẽ;perlẽ;perła
+noun;poxt;poSt;poczta
+noun;poxtarcárte;poStarca:rte;pocztówka
+noun;prix;priS;wieś
+noun;proclemati;proklemati;proklamacja
+noun;quena;kwena;liść
+noun;quit;kwit;rzecz
+noun;quitanlisar;kwitanlisar;rzeczpospolita
+noun;qushyalf;kwushjal;wzniosłość
+noun;rafad;rafad;kruk
+noun;realua;realua;rzeczywistość
+noun;regẽte;regẽte;regent
+verb;rolu;rolu;owijać
+noun;saire;saire;pozdrowienie
+verb;sairus;sairus;pozdrawiać
+verb;sal;sal;skakać
+verb;sanyana;sanjana;pisać
+noun;Sarmatia;sarmatia;Sarmacja
+conj;sáh;sa:h;i
+noun;sámõteu;podgórze
+adve;sáno;sa:no;ponad
+adve;sát;sa:t;pod
+noun;siar;siar;szal
+noun;siv;siv;oddech
+noun;solum;solum;kielich
+noun;sthi;sTi;myśl
+noun;sthioroth;sTioroT;pomyślność
+noun;svansti;svansti;szczęście
+verb;svom;svom;pływać
+noun;taia;taja;wyrocznia
+pron;tha;Ta;ten, ta, to
+noun;tox;toS;róg

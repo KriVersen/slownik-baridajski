@@ -22,7 +22,7 @@ BEGIN {
 }
 
 # check for new section
-strip_diacrit($2) !~ tolower(section) { 
+tolower(strip_diacrit($2)) !~ tolower(section) { 
     # get new section letter
     section = "^"toupper(substr($2, 1, 1))
 
@@ -77,4 +77,14 @@ $1 == "prep" {
 # conjuction
 $1 == "conj" {
     print "\\con{" $2 "}{" $3 "}{\\entry{" $4 "}}"
+}
+
+# adverbs
+$1 == "adve" {
+    print "\\adve{" $2 "}{" $3 "}{\\entry{" $4 "}}"
+}
+
+# pronouns
+$1 == "pron" {
+    print "\\pron{" $2 "}{" $3 "}{\\entry{" $4 "}}"
 }
